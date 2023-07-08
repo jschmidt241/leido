@@ -10,4 +10,6 @@ namespace leido {
 
 		void Run();
 	};
+
+	Application* CreateApplication();
 }

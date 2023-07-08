@@ -11,9 +11,7 @@ public:
 	}
 };
 
-int main()
+leido::Application* leido::CreateApplication()
 {
-	Sandbox* sandbox = new Sandbox();
-	sandbox->Run();
-	delete(sandbox);
+	return new Sandbox();
 }
