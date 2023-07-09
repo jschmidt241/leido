@@ -7,7 +7,7 @@ extern leido::Application* leido::CreateApplication();
 int main(int argc, char** argv)
 {	
 	auto app = leido::CreateApplication();
-	app->Run();
+	app->Run(argc, argv);
 	delete(app);
 }
 

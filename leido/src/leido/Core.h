@@ -1,5 +1,7 @@
 #pragma once
 
+#include "../libs/loguru.hpp"
+
 #ifdef LE_PLATFORM_WINDOWS
 	#ifdef LE_BUILD_DLL
 		#define LEIDO_API __declspec(dllexport)

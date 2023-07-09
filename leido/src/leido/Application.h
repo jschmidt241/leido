@@ -8,7 +8,7 @@ namespace leido {
 		Application();
 		virtual ~Application();
 
-		void Run();
+		void Run(int argc, char **argv);
 	};
 
 	Application* CreateApplication();

@@ -1,0 +1,22 @@
+
+
+
+
+
+arguments: C:\\dev\\leido\\bin\\Debug-x64\\sandbox\\sandbox.exe
+Current dir: C:\dev\leido\sandbox
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2023-07-08 21:14:45.970 (   0.219s) [main thread     ]             loguru.cpp:841   INFO| Logging to 'everything.log', mode: 'a', verbosity: 9
+2023-07-08 21:14:45.970 (   0.219s) [main thread     ]        Application.cpp:23    INFO| Hello log file!
+
+
+
+
+
+arguments: C:\\dev\\leido\\bin\\Debug-x64\\sandbox\\sandbox.exe
+Current dir: C:\dev\leido\sandbox
+File verbosity level: 9
+date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
+2023-07-08 21:26:25.582 (   0.155s) [main thread     ]             loguru.cpp:841   INFO| Logging to 'everything.log', mode: 'a', verbosity: 9
+2023-07-08 21:26:25.583 (   0.155s) [main thread     ]        Application.cpp:22    INFO| Hello log file!
