@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../libs/loguru.hpp"
+#include <string>
 
 #ifdef LE_PLATFORM_WINDOWS
 	#ifdef LE_BUILD_DLL
